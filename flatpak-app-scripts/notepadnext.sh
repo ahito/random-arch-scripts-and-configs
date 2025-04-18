@@ -11,12 +11,3 @@ for arg in "$@"; do
 done
 
 eval "flatpak run --file-forwarding com.github.dail8859.NotepadNext ${parsed_args[@]}"
-#eval $notepad_run_str
-#echo "args: ${parsed_args[@]}"
-
-
-#if [ -n $1 ] && [ "${1:0:1}" != "-"] ; then
-#  flatpak run --file-forwarding com.github.dail8859.NotepadNext  @@ "$1" @@
-#else
-#  flatpak run com.github.dail8859.NotepadNext $@
-#fi
