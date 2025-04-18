@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 for f in ./flatpak-app-scripts/*.sh; do
   if [ ! -f "$f" ]; then

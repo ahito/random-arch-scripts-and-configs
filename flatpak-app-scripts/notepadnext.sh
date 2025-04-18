@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 declare -a parsed_args
 for arg in "$@"; do 
   if [ ${arg:0:1} == "-" ]; then

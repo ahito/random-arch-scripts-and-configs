@@ -44,3 +44,4 @@ export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias cd..="cd .."

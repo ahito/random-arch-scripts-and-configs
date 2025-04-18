@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 curscript=$(realpath "$0")
 

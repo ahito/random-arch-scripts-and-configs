@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 if [ -z "$ZDOTDIR" ]; then 
   echo "ERROR: env ZDOTDIR is not set"
   exit 1

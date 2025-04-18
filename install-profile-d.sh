@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 for f in ./profile.d/*.sh; do
   filepath=$(realpath "$f")
   basename=$(basename "$f")

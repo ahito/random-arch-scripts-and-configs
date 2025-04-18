@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 for f in ./zsh-etc/*; do
   if [ ! -f "$f" ]; then
