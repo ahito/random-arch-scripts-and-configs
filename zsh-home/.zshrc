@@ -42,6 +42,6 @@ PROMPT+="%0(?.. %F{red}✘%f)"
 PROMPT+=' $ ';
 export WGETRC="$XDG_CONFIG_HOME/wgetrc"
 
-alias ls='ls --color=auto'
+alias ls='ls --color=auto --group-directories-first'
 alias grep='grep --color=auto'
 alias cd..="cd .."
