@@ -1,0 +1,19 @@
+background-color=#333333aa
+default-timeout=5000
+sort=-time
+padding=0,5,10
+
+[app-name="hyprmedianotify"]
+anchor=center
+padding=0
+text-alignment=left
+progress-color=source #5588AAFF
+margin=200,0,0
+
+[app-name="hyprsocket2notify"]
+margin=200,0,0
+anchor=center
+padding=10
+text-alignment=center
+width=200
+background-color=#333333FF
